@@ -1,3 +1,6 @@
+# Author: Roozbeh Jafari
+    # Email : Roozbeh@bu.edu
+
 from selenium import webdriver
 import time
 
@@ -76,8 +79,8 @@ class PS5Bot:
             
 if __name__ == "__main__":
     personal_info = dict(
-        first_name = "John",
-        last_name = "Smith", 
+        first_name = "Kasra",
+        last_name = "Hadidi", 
         email = "mail@gmail.com", 
         address = "1234 Apple Lane", 
         phone = "1234567890",
@@ -85,7 +88,7 @@ if __name__ == "__main__":
         credit_month = "00", 
         credit_year = "25", 
         credit_ccv = "123",
-        chrome_path = "C:/Users/Alex/Downloads/chromedriver_win32/chromedriver.exe" 
+        chrome_path = "C:/Users/Roozbeh/Downloads/chromedriver_win32/chromedriver.exe" 
     )
     
     bot = PS5Bot(**personal_info)
